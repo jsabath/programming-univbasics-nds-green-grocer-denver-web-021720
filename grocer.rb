@@ -29,7 +29,6 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  def apply_coupons(cart, coupons)
   i = 0
   while i < coupons.count do
     coupon = coupons[i]
