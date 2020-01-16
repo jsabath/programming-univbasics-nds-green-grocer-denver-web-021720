@@ -76,7 +76,7 @@ def checkout(cart, coupons)
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-   total = 0
+  total = 0
   i = 0
 
   ccart = consolidate_cart(cart)
